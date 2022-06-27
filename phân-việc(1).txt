@@ -1,23 +1,20 @@
- (library/snowhouse)
+ 
 dũng:
-1. (Process_login,Process_logout,view_login),view_logout(library/snowhouse)
- 2.  đăng xuất đăng nhập khách hàng và admin : process_sign_up,view_sign_up,(library/snowhouse)
-                 login,loginXuly,logout_Xuly,check_login(library/admin/modules)
-3.public/admin/vendor/ (chart.js và datatables)
+1. chức năng đăng kí tài khoản mới
+ 2.  đăng xuất đăng nhập khách hàng và admin : 
 3,bổ sung giao diện css cho các thành viên cho nhóm
-giao diện khách hàng:(/layouts)
-library/public
-                                                            (library/admin/modules)
+giao diện khách hàng
+                                                           
 V.anh:
 1.thiết kế database
-2.thêm sách:insert,insertXuly(library/admin/modules)
-  thêm loại sách:insert_loai,insert_loaixl(library/admin/modules)
-  thêm admin:insert_admin,insert_admin_xl(library/admin/modules)
-3.public/admin/vendor/fontawesome-free; index.php (cus)
-4. giao diện admin: footer,header(admin/layouts)
+2.thêm sách
+  thêm loại sách
+  thêm admin
+3.usecase ...
+4. giao diện admin
+
 Tung:
-1.tất cả đầu sách:list,edit,editXuly,delete(library/admin/modules)
-2.quản lý sinh viên:info_kh,edit_kh,delete_kh(library/admin/modules)
-3.quản lý hóa đơn:donhang,process_thay_doi_tinh_trang,view_chi_tiet_hoa_don(library/admin/modules)
-4.public/admin/vendor/(jquery,jquery-easing)
-5.giỏ hàng:process_dat_hang,view_gio_hang,process_them_vao_gio_hang,process_xoa_gio_hang
+1.tất cả đầu sác
+2.quản lý sinh viên
+3.quản lý hóa đơn
+4.thiết kế chức năng giỏ hàng
